@@ -1,29 +1,35 @@
 /* Tu CSS va aqui */
+/*--------------------header-navbar---------------------------*/
+header .navbar {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+.navbar{
+	background-color: rgb(255,255,255,0.42);
+}
 /*--------------------header---------------------------*/
 .fondo{
 	background:url(../img/header.jpg)no-repeat;
 	background-size:cover;
 	background-position:center;
 }
-.fondo .row{
+.navbar{
 	border-bottom:1px solid #CCC;
 }
-header .header{
-	padding-top:10px;
-}
-.header h5,.header a{
+header h5,header a{
 	color:white;
 	margin-bottom:0;
 }
-.header h5{
+header h5{
 	margin:0;
 }
-.header ul li{
+header ul li{
 	margin:0 5px;
 	text-decoration:none;
 	font-size:11px;
 }
-.header ul{
+header ul{
 	text-align:right;
 }
 
@@ -104,4 +110,13 @@ footer li{
 }
 .email{
 	color:#EB6A2A;
+}
+/*-------------------media----------------*/
+@media screen and (max-width:640px) {
+	.coder{
+		padding:20px;
+		margin:20px;
+	}
+
+
 }
