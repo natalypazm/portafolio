@@ -1,36 +1,107 @@
 /* Tu CSS va aqui */
-*{
-	outline:1px solid pink;
-}
+/*--------------------header---------------------------*/
 .fondo{
 	background:url(../img/header.jpg)no-repeat;
 	background-size:cover;
+	background-position:center;
+}
+.fondo .row{
+	border-bottom:1px solid #CCC;
 }
 header .header{
-	border-bottom:1px solid #CCC;
 	padding-top:10px;
 }
-header h3,header a{
+.header h5,.header a{
 	color:white;
+	margin-bottom:0;
 }
-header h3{
+.header h5{
 	margin:0;
 }
-header ul li{
+.header ul li{
 	margin:0 5px;
 	text-decoration:none;
+	font-size:11px;
 }
-header ul{
+.header ul{
 	text-align:right;
 }
+
 .coder{
-	margin:270px;
+	text-align:bottom;
+	color:white;
+	padding:195px;
 	text-align:center;
 }
-.images{
-
+.coder h1{
+	font-weight:bolder;
+}
+.separator{
+	width:40px;
+	border:1px solid #EC7063;
+	margin:20px;
+}
+.conoce_mas{
+	border-radius:15px;
+	padding:7px 15px;
+	font-size:11px;
+	color:white;
+	background:#EC7063;
+	border:1px solid #EC7063;
+	margin:15px;
+}
+/*-----------------------servicios-----------------*/
+.info_sobre_mi{
+	background:#EC7063;
+	padding:50px;
+	color:white;
+	text-align: center;
+}
+.info_sobre_mi .separator{
+	border:1px solid white;
+}
+.servicios{
+	text-align: center;
+	margin:50px;
+}
+.servicios li{
+	margin:0 10px;
+}
+.servicios p{
+	color:#A6ACAF;
 }
 .images .col-md-4{
 	margin:0;
 	padding:0;
+}
+/*-----------------------------github------------*/
+.revisa_github{
+	background:black;
+	color:white;
+	text-align:center;
+	padding:30px;
+}
+.github{
+	color:black;
+	border-radius:15px;
+	padding:7px 15px;
+	font-size:11px;
+	border:1px solid white;
+	margin:15px;
+}
+.images img{
+	width:100%;
+}
+/*----------------------footer----------------*/
+footer{
+	padding:30px;
+}
+.servicios img,footer img{
+	height:30px;
+}
+footer li{
+	margin:10px 90px;
+}
+.email{
+	color:#EB6A2A;
 }
