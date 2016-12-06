@@ -6,6 +6,7 @@
 	<title>Portafolio</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </head>
@@ -17,15 +18,13 @@
 				<nav class="navbar">
 		 			<div class="container">
 						<div class="navbar-header">
-			      			<button type="button" class="navbar-toggle collapsed visible-xs navbar-default" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			      			<button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 			      					<span class="sr-only">Toggle navigation</span>
-			        				<span class="icon-bar"></span>
-			        				<span class="icon-bar"></span>
-			        				<span class="icon-bar"></span>
+			        				<i class="fa fa-navicon"></i>
 			     	 			</button>
 			     	 			<a class="navbar-brand" href="#"><h5>MI PORTAFOLIO</h5></a>
 			    		</div>
-			    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ba>
 								<ul class="nav navbar-nav navbar-right list-inline">
 									<li><a href="#sobre_mi">SOBRE MÍ</a></li>
 									<li><a href="#servicios">SERVICIOS</a></li>
@@ -37,9 +36,9 @@
 					</nav>
 				</div>
 		<div class="coder">
-			<h1>HOLA,MI NOMBRE ES KATY<br>SOY CODER DE LABORATORIA</h1>
+			<h1>HOLA,MI NOMBRE ES KATY<br class="hidden-xs"> SOY CODER DE LABORATORIA</h1>
 			<center><div class="separator"></div></center>
-			<p>Estas interesada en desarrollar un sitio web o necesitas una fronted developer,yo te puedo ayudar<br>con los diferentes servicios que brindo</p>
+			<p>Estas interesada en desarrollar un sitio web o necesitas una fronted developer,yo te puedo ayudar<br class="hidden-xs">con los diferentes servicios que brindo</p>
 			<button class="conoce_mas"><strong>CONOCE MÁS</strong></button>
 		</div>
 	</div>
@@ -47,15 +46,15 @@
 </header>
 <div class="container-fluid">
 	<div class="row">
-		<div class="info_sobre_mi">
+		<div class="info_sobre_mi" id="sobre_mi">
 			<h3>SOBRE MÍ</h3>
 			<center><div class="separator"></div></center>
-			<p>Soy egresada de laboratoria salí con el título de Frontend developer Jr. desarrolllo páginas web en HTML / CSS / JavaScript. Soy creativa, inteligente y alegre cosa que transmito en cada una de las webs que desarrollo.</p>
+			<p>Soy egresada de laboratoria salí con el título de Frontend developer Jr. desarrolllo páginas web en HTML<br>/ CSS / JavaScript. Soy creativa, inteligente y alegre cosa que transmito en cada una de las webs que desarrollo.</p>
 		</div>
 	</div>
 </div>
 <div class="container-fluid">
-	<div class="servicios">
+	<div class="servicios" id="servicios">
 		<h3>SERVICIOS</h3>
 		<center><div class="separator"></div></center>
 		<ul class="list-inline">
@@ -107,7 +106,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="revisa_github">
+	<div class="revisa_github" id="mis_trabajos">
 		<div class="container-fluid">
 			<h3>Si quieres ver mi proyecto revisa mi github</h3>
 			<button class="github"><strong>VER MI GITHUB!</strong></button>
@@ -117,7 +116,7 @@
 <footer>
 	<div class="container">
 		<center>
-			<h3>CONTÁCTAME</h3>
+			<h3 id="contactame">CONTÁCTAME</h3>
 			<div class="separator"></div>
 			<small>
 				<p>¿Listo para empezar tu siguiente proyecto?¿Te gusta lo que has visto? Genial!, dame una llamada o<br>envíame un correo y te reponderé lo más rápido que pueda!</p>

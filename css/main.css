@@ -2,8 +2,10 @@
 /*--------------------header-navbar---------------------------*/
 header .navbar {
   width: 100%;
-  position: fixed;
   z-index: 100;
+}
+.navbar .container{
+	position:fixed;
 }
 .navbar{
 	background-color: rgb(255,255,255,0.42);
@@ -115,8 +117,31 @@ footer li{
 @media screen and (max-width:640px) {
 	.coder{
 		padding:20px;
-		margin:20px;
+		margin:40px 0;
+		width:100%;
 	}
-
-
+	.coder h1{
+		font-size:27px;
+	}
+	.navbar{
+		background:white;
+	}
+	.navbar button{
+		color:#848484;
+		border:1px solid #CCC;
+		padding:6px 9px;
+		right:-90%;
+	}
+	.navbar-brand h5{
+		color:#FE2E2E;
+		font-weight:bolder;
+	}
+	.navbar a{
+		color:black;
+	}
+	.navbar-collapse ul{
+		background:rgba(30,225,225,0.1);
+		position:absolute;
+		right:-80%;
+	}
 }
